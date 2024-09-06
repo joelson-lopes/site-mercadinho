@@ -38,7 +38,7 @@ marquee{
 }
 .nav{
     display: block;
-    padding: 5px;
+    padding: 8px;
     background-image: linear-gradient(to top, var(--cor3castanhoescuro3), var(--cor5castanhofusco));
 }
 .nav a{
