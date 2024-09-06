@@ -40,7 +40,9 @@ marquee{
     transition: 0.2ms;
 }
 .nav{
-    display: block;
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
     padding: 6px;
     background-image: linear-gradient(to top, var(--cor3castanhoescuro3), var(--cor5castanhofusco));
     box-shadow: 0px, 0px, 10px, #000000;

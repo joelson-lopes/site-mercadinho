@@ -1,12 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+
+:root {
+    --cor1castanhoclaro1: #ebd6b6;
+    --cor2castanhoclaro2: #EDD3B0;
+    --cor3castanhoescuro3: #753c03;
+    --cor4castanhochocolate: #764416;
+    --cor5castanhofusco: #9D6836;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.header {
+    background-color: var(--cor1castanhoclaro1);
+}
+
+div.header h1 {
+    text-align: center;
+    font-family: system-ui, -apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--cor1castanhoclaro1);
+}
+
+.header p {
+    color: #000;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    color: var(--cor3castanhoescuro3);
+}
+
+marquee {
+    background-color: var(--cor1castanhoclaro1);
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    padding: 5px;
+    background-image: linear-gradient(to top, var(--cor3castanhoescuro3), var(--cor5castanhofusco));
+}
+
+.nav a {
+    margin-left: 13px;
+    color: white;
+    text-decoration: none;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    font-size: 1.2em;
+}
+
+.nav a:hover {
+    background-color: #ebd6b6;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 0.1%;
+    color: var(--cor5castanhofusco);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 15%;
+}
+
+div.main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0;
+    min-width: 100%;
+    max-width: 100%;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--cor5castanhofusco);
+}
+
+div.infologic,
+div.engrenagens,
+div.consultoria,
+div.identidadevisual,
+div.clothes,
+div.shoes,
+div.fretegratis {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+div.infologic img,
+div.engrenagens img,
+div.consultoria img,
+div.identidadevisual img,
+div.clothes img,
+div.shoes img,
+div.fretegratis img {
+    width: 100%;
+    height: auto;
+}
+
+div.infologic p,
+div.engrenagens p,
+div.consultoria p,
+div.identidadevisual p,
+div.clothes p,
+div.shoes p,
+div.fretegratis p {
+    margin-top: 1rem;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    background-color: #753c0e;
+    border: 1px solid #EDD3B0;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+button a {
+    color: #EBD6B6;
+    text-decoration: none;
+    padding: 0;
+    border-radius: 10px;
+}
 
 /* Responsividade para telas com largura máxima de 380px */
-@media (max-width: 380px) {
+@media (max-width: 400px) {
     .header h1 {
         font-size: 1.2em;
     }
 
     .header p {
         font-size: 0.9em;
+        font-weight: 400;
     }
 
     .nav {
@@ -17,6 +153,8 @@
     }
 
     .nav a {
+        display: flex;
+        flex-direction: row;
         margin: 5px 0;
     }
 
