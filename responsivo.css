@@ -13,8 +13,10 @@ img{
 }
 div.main{
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    padding: 10px;
+    min-width: 380px;
+    max-width: 750px;
 }
 div.infologic p{
     margin-top: 1rem;
