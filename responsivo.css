@@ -3,8 +3,11 @@
         12px
     }
 .nav{
-    padding: 4px;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
     font-size: 0.9em;
+    margin: auto;
 }
 img{
     width: 15rem;
