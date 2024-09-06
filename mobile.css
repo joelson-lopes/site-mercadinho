@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+@media (max-width:400px){
+    
+    
+    :root{
+    --cor1castanhoclaro1: #ebd6b6;
+    --cor2castanhoclaro2:#EDD3B0;
+    --cor3castanhoescuro3: #753c03;
+    --cor4castanhochocolate:#764416;
+    --cor5castanhofusco:#9D6836;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    margin-top: 10%;
+}
+body{
+    background-color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, var(--cor3castanhoescuro3), var(--cor2castanhoclaro2));
+    font-size: 0.9rem;
+    position: static;
+}
+marquee{ 
+    position: absolute;
+    display: block;
+    width: 380px;
+    margin: auto auto;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 100%;
+    height: 100%;
+    height: auto;
+    top: 0%;
+    background-color: #EDD3B0;
+}
+h1{
+    color: var(--cor4castanhochocolate);
+}
+p{
+    color: #000;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 11px;
+    font-family:system-ui, -apple-system, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    margin: 0;
+    padding: 0;
+    margin-left: 3%;
+    justify-content: space-between;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    background-image: linear-gradient(to top, var(--cor3castanhoescuro3), var(--cor5castanhofusco));
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor2castanhoclaro2);
+    font-size: 15px;
+}
+nav a:hover{
+    background-color: #ebd6b6;
+    border-radius: 8px;
+    padding: 1.2px;
+    border-style: solid;
+    color: var(--cor5castanhofusco);
+}
+img{
+    width: 50vh;
+    height: 80vh;
+    border-radius: 10px;
+}
+#img{
+    width: 40vh;
+    height:40vh; 
+    border-radius: 15px;
+}
