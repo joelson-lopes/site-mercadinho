@@ -1,0 +1,40 @@
+@media (min-widht:380) {
+    .header p{
+        12px
+    }
+.nav{
+    padding: 4px;
+    font-size: 0.9em;
+}
+img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 15%;
+}
+div.main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+div.infologic p{
+    margin-top: 1rem;
+}
+div.engrenagens p{
+    margin-top: 1rem;
+}
+div.consultoria p{
+    margin-top: 1rem;
+}
+div.identidadevisual p{
+    margin-top: 1rem;
+}
+div.clothes p{
+    margin-top: 1rem;
+}
+div.shoes p{
+    margin-top: 1rem;
+}
+div.fretegratis p{
+    margin-top: 1rem;
+}
+}
