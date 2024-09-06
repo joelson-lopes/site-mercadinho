@@ -60,7 +60,8 @@ marquee{
     color: var(--cor5castanhofusco);
 }
 img{
-    width: 100%;
+    width: 20rem;
+    height: 20rem;
     border-radius: 15%;
 }
 div.main{
