@@ -34,11 +34,13 @@ h1{
     color: var(--cor3castanhoescuro3);
 }
 marquee{
-    background-color: var(--cor1castanhoclaro1)
+    background-color: var(--cor1castanhoclaro1);
+    animation-duration: 0.1ms;
+    transition: 0.2ms;
 }
 .nav{
     display: block;
-    padding: 8px;
+    padding: 6px;
     background-image: linear-gradient(to top, var(--cor3castanhoescuro3), var(--cor5castanhofusco));
 }
 .nav a{
