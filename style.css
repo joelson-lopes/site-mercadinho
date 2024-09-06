@@ -1,0 +1,163 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+@media (min-width:380px) {
+}
+:root{
+    --cor1castanhoclaro1: #ebd6b6;
+    --cor2castanhoclaro2:#EDD3B0;
+    --cor3castanhoescuro3: #753c03;
+    --cor4castanhochocolate:#764416;
+    --cor5castanhofusco:#9D6836;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div.header{
+    background-color: var(--cor1castanhoclaro1);
+}
+div.header h1{
+    text-align: center;
+    font-family:system-ui, -apple-system,'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--cor1castanhoclaro1);
+}
+.header p{
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    font-family:system-ui, -apple-system, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    color: var(--cor3castanhoescuro3);
+}
+marquee{
+    background-color: var(--cor1castanhoclaro1)
+}
+.nav{
+    display: block;
+    padding: 5px;
+    background-image: linear-gradient(to top, var(--cor3castanhoescuro3), var(--cor5castanhofusco));
+}
+.nav a{
+    margin-left: 13px;
+    color: white;
+    text-decoration: none;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    font-size: 1.2em;    
+}
+.nav a:hover{
+    background-color: #ebd6b6;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 0.1%;
+    color: var(--cor5castanhofusco);
+}
+img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 15%;
+}
+div.main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-left: 20vw;
+    min-width: 380px;
+    max-width: 750px;
+    color:#fff;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--cor5castanhofusco);
+    
+}
+div.infologic{ 
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    height: 100%;
+}
+div.infologic p{
+    margin-top: 4rem;
+}
+
+
+div.engrenagens{
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    
+}
+div.engrenagens p{
+    margin-left: 5%;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 4rem;
+}
+
+div.consultoria{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+div.consultoria p{
+    margin-top: 4rem;
+}
+
+
+div.identidadevisual{
+    display: flex;
+    flex-direction: row;
+}
+div.identidadevisual p{
+    margin-top: 4rem;
+}
+
+div.clothes{
+    display: flex;
+    flex-direction: row-reverse;
+}
+div.clothes p{
+    margin-top: 4rem;
+}
+
+div.shoes{
+    display: flex;
+    flex-direction: row;
+}
+div.shoes p{
+    margin-top: 4rem;
+}
+
+div.fretegratis{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+div.fretegratis p{
+    margin-top: 4rem;
+}
+button{
+    display:flex;
+    margin-left: 43%;
+    background-color:#753c0e;
+    border: 1px solid #EDD3B0;
+    padding: 1px;
+    font-size: 1em;
+
+}
+button a{
+    display: flex;
+    color: #EBD6B6;
+    text-decoration: none;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+
+
+
