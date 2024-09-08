@@ -131,7 +131,7 @@ button a {
 }
 
 /* Responsividade para telas com largura máxima de 380px */
-@media (min-width: 400px) {
+@media (min-width: 350px) {
     *{
         background-color: var(--cor3castanhoescuro3);
         margin: 0;
