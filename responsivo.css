@@ -87,7 +87,10 @@ div.main {
     background-color: var(--cor5castanhofusco);
 }
 
-div.infologic,
+div.infologic{
+    display: flex;
+    flex-direction: row-reverse;
+}
 div.engrenagens,
 div.consultoria,
 div.identidadevisual,
