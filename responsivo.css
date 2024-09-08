@@ -67,11 +67,17 @@ marquee {
 }
 
 #img {
-    width:15rem;
+    width:13rem;
     height: 15rem;
     border-radius: 15%;
 }
-
+.fretegratis img{
+    display: flex;
+    align-self: center;
+    width: 16em;
+    height: 29em;
+    border-radius: 5%;
+}
 
 div.main {
     display: flex;
@@ -89,7 +95,6 @@ div.main {
 div.infologic{
     display: flex;
     flex-direction: row-reverse;
-    background-color: var(--cor5castanhofusco);
 }
 div.engrenagens,
 div.consultoria,
@@ -160,13 +165,13 @@ button a {
     .fretegratis img{
         display: flex;
         align-self: center;
-        width: 16em;
-        height: 19em;
+        width: 13rem;
+        height: 19rem;
         border-radius: 5%;
     }
     #img{
-        width: 10rem;
-        height: 10rem;
+        width: 12.5rem;
+        height: 15rem;
         border-radius: 15%;
         border: solid;
         padding: 1px;
@@ -192,7 +197,6 @@ button a {
         flex-direction: column;
         text-align: center;
         margin-bottom: 5%;
-        background-color: var(--cor5castanhofusco);
     }
     
     div.infologic p,
@@ -205,9 +209,7 @@ button a {
         text-align: justify;
         margin-top: 1rem;
         font-size: 0.9em;
-        text-align: center;
-        background-color: var(--cor5castanhofusco);
-        
+        text-align: center;      
     }
 
     button {

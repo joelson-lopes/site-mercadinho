@@ -74,6 +74,7 @@ div.main{
     font-weight: 600;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--cor4castanhochocolate);
 }
 div.infologic{ 
     padding: 10px;
@@ -98,7 +99,6 @@ div.engrenagens p{
     font-weight: 500;
     text-align: left;
     margin-top: 0.2rem;
-    background-color: var(--cor5castanhofusco);
 }
 
 div.consultoria{
