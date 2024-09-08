@@ -156,6 +156,13 @@ button a {
         min-width: 1000px;
         display: none;
     }
+    .fretegratis img{
+        display: flex;
+        align-self: center;
+        width: 16em;
+        height: 18em;
+        border-radius: 5%;
+    }
     #img{
         width: 10rem;
         height: 10rem;
