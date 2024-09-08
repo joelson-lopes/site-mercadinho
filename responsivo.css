@@ -182,6 +182,7 @@ button a {
         width: 100%;
         height: 100%;
         padding: 10px;
+        border-radius: 3px;
         display: flex;
         justify-content: center;
         background-color: var(--cor2castanhoclaro2);
@@ -197,6 +198,7 @@ button a {
         flex-direction: column;
         text-align: center;
         margin-bottom: 5%;
+        border-radius: 10px;
     }
     
     div.infologic p,
