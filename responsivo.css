@@ -130,7 +130,10 @@ button a {
 }
 
 /* Responsividade para telas com largura máxima de 380px */
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
+    body{
+        background-color: var(--cor4castanhochocolate);
+    }
 
     .header h1 {
         font-size: 1.6em;
@@ -139,21 +142,21 @@ button a {
     .header p {
         color: #000;
         font-size: 0.7em;
-        font-weight: 400;
+        font-weight: 600;
     }
     .nav{
-        min-width: 380px;
+        min-width: 1000px;
         display: none;
     }
     #img{
-        width: 15rem;
-        height: 12rem;
+        width: 12em;
+        height: 13em;
         border-radius: 15%;
     }
     
     div.main {
         padding: 10px;
-        display: flex;
+        display: inline;
         justify-content: center;
     }
 
@@ -177,6 +180,7 @@ button a {
     div.fretegratis p {
         margin-top: 1rem;
         font-size: 0.9em;
+        text-align: center;
     }
 
     button {
