@@ -149,6 +149,8 @@ button a {
     div.main {
         padding: 10px;
         margin: auto;
+        display: flex;
+        justify-content: center;
     }
 
     div.infologic, 
