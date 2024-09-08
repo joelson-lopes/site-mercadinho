@@ -131,10 +131,12 @@ button a {
 
 /* Responsividade para telas com largura máxima de 380px */
 @media (max-width: 1000px) {
-    body{
+    *{
         background-color: var(--cor4castanhochocolate);
     }
-
+    .header{
+        padding: 2px;
+    }
     .header h1 {
         font-size: 1.6em;
     }
@@ -143,14 +145,20 @@ button a {
         color: #000;
         font-size: 0.6em;
         font-weight: 600;
+        background-color: var(--cor1castanhoclaro1);
+    }
+    marquee{
+        border: #753c03 solid;
+        border-radius: 10px;
+
     }
     .nav{
         min-width: 1000px;
         display: none;
     }
     #img{
-        width: 12rem;
-        height: 13rem;
+        width: 10rem;
+        height: 10rem;
         border-radius: 15%;
     }
     
