@@ -190,7 +190,7 @@ button a {
     div.fretegratis {
         flex-direction: column;
         text-align: center;
-        margin-bottom: 2%;
+        margin-bottom: 5%;
         background-color: var(--cor5castanhofusco);
     }
     
