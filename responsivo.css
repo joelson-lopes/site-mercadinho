@@ -131,12 +131,13 @@ button a {
 }
 
 /* Responsividade para telas com largura máxima de 380px */
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .header h1 {
         font-size: 1.4em;
     }
 
     .header p {
+        color: #fff;
         font-size: 0.5em;
         font-weight: 400;
     }
@@ -148,8 +149,7 @@ button a {
     
     div.main {
         padding: 10px;
-        margin: auto;
-        display: flex;
+        display: block;
         justify-content: center;
     }
 
