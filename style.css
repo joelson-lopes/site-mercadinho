@@ -37,6 +37,7 @@ marquee{
     transition: 0.2ms;
 }
 .nav{
+    min-width: 600px;
     display: flex;
     flex-direction: row;
     margin: 2%;
