@@ -141,7 +141,7 @@ button a {
 
     .header p {
         color: #000;
-        font-size: 0.7em;
+        font-size: 0.6em;
         font-weight: 600;
     }
     .nav{
@@ -149,8 +149,8 @@ button a {
         display: none;
     }
     #img{
-        width: 12em;
-        height: 13em;
+        width: 12rem;
+        height: 13rem;
         border-radius: 15%;
     }
     
