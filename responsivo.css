@@ -141,7 +141,7 @@ button a {
         font-size: 0.5em;
         font-weight: 400;
     }
-    nav{
+    .nav{
         display: none;
     }
     #img{
