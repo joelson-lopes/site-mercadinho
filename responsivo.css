@@ -179,6 +179,7 @@ button a {
         padding: 10px;
         display: flex;
         justify-content: center;
+        background-color: var(--cor2castanhoclaro2);
     }
     
     div.infologic, 
