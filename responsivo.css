@@ -131,9 +131,8 @@ button a {
 }
 
 /* Responsividade para telas com largura máxima de 380px */
-@media (min-width: 350px) {
+@media (max-width: 600px) {
     *{
-        background-color: var(--cor3castanhoescuro3);
         margin: 0;
         padding: 0;
     }
@@ -147,6 +146,7 @@ button a {
         font-weight: 400;
     }
     .nav{
+        min-width: 380px;
         display: none;
     }
     #img{
