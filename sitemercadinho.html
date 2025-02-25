@@ -1,97 +1,366 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.72.0">
     <link rel="shortcut icon" href="images/mercadinho logo.jpg" type="image/x-icon">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsivo.css">
-    <link rel="import" href="index.html">
-    <title>MERCADINHO.AO</title>
-</head>
+    <title>Mercadinho.ao</title>
+    <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/album/">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+  </head>
+
 <body>
-    <div class="header">
-        <marquee scrollamount="5" direction="right">
-            <h1>MERCADINHO.AO</h1>
-        </marquee>
-        <P>Bem-vindo ao Mercadinho.ao - Sua Praça Virtual! <br>
-           O Mercadinho.ao é mais do que uma loja de dropshipping; <br> Somos uma plataforma que apoia micro e pequenos empreendedores <br> a expandirem  seus negócios de forma significativa. <br> Nosso objetivo é proporcionar visibilidade e aumentar as vendas de empresas como a sua. </P>
-    </div> <!--div header end-->
-    
-    <div class="nav">
-        <a href="#" target="_blank">redes sociais</a>
-        <a href="#" target="_blank">contacte-nos</a>
-        <a href="#" target="_blank">about</a>
-        <a href="#" target="_blank">Biography</a>
-    </div><!--nav end-->
-    
-    <div class="main">
-        <div class="infologic">
-            <picture>
-                <source media="(max-width: 670px)" srcset="images/mercadinhologo.jpg">
-                <img id="img" src="images/mercadinhologo.jpg" alt="logomarca">
-        </picture>
-            <p>Chegou o Mercadinho uma praça virtual! <br>Você que tem um mini negócio ou um negócio de médio port <br>e não tem muita repercussão ou deseja aumentar suas vendas, <br>o mercadinho afilia-se a sí em troca de significativas comissões de vendas.</p>
+
+  <header>
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">Sobre</h4>
+            <p class="text-muted">Add some information about the album below, the author, or any other background
+              context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off
+              to some social networking sites or contact information.</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Contact</h4>
+            <ul class="list-unstyled">
+              <li><a href="https://wa.link/66ncdz" target="_blank" class="text-white">envie-nos uma menssagem no WhatsApp</a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=61560839145754" target="_blank" class="text-white">deixe o seu like no Facebook</a></li>
+              <li><a href="https://mail.google.com/mercadinhoao@gmail.com" target="_blank" class="text-white">Email me</a></li>
+            </ul>
+          </div>
         </div>
-
-        <div class="engrenagens">
-            <picture>
-                <source media="(max-width: 670px)" srcset="images/engrenagens.jpg">
-                <img id="img" src="images/engrenagens.jpg" alt="engrenagens">
-            </picture>
-            <p>Técnica de funcionamento do <br> <strong> MERCADINHO.AO</strong>
-                • Afiliação Simples: Junte-se à nossa plataforma <br> de forma fácil e rápida. <br>
-                • Ampliação de Alcance: Aproveite nossa base de clientes <br> crescente para aumentar suas vendas. <br>
-                • Comissões Atrativas: comercialize os seus produtos na nossa loja <br> investindo em significativas comissões de venda. <br> 
-                • ⁠Agente Mercadinho: Torne-se um agente <br> mercadinho comercializando produtos da nossa plataforma <br> e habilita-se a ganhar generosas comissões que podem variar...
-            </p>
-           
-        </div><!--info end-->
-
-        <div class="consultoria">
-        <picture>
-            <source media="(max-width: 670px)" srcset="images/consultoriadenegocios.jpg">
-            <img id="img" src="images/consultoriadenegocios.jpg" alt="consuultoria">
-        </picture>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, minima mollitia impedit ab earum aliquam quod velit blanditiis esse, aspernatur iusto eligendi illo sed asperiores qui enim in voluptatum. Provident.</p>
-        </div><!--consultoria e ideias de negócios-->
-
-        <div class="identidadevisual">
-            <picture>
-                <source media="(max-width: 670px)" srcset="images/identidadevisual.jpg">
-                <img id="img" src="images/identidadevisual.jpg" alt="identidade visual">
-            </picture>
-         
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum modi aliquam assumenda eum ad itaque <br>reiciendis dolores facilis, dolore obcaecati. Quibusdam beatae nostrum dolor laboriosam tenetur vel ea officia pariatur?</p>
-        </div><!--identidade visual-->
-        
-        <div class="clothes">
-            <picture>
-                <source media="(max-width: 670px)" srcset="images/clothes.jpg">
-                <img id="img" src="images/clothes.jpg" alt="roupas">
-            </picture>
-         
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Dignissimos sunt optio inventore, animi consequatur eaque eiusbr <br> natus sed vero dolorem atque, numquam ut id iusto ab nam assumenda aperiam sint?</p>
-        </div><!--clothes-->
-
-        <div class="shoes">
-            <picture>
-                <source media="(max-width: 670px)" srcset="images/shoes.jpg">
-                <img id="img" src="images/shoes.jpg" alt="calçados">
-            </picture>
-         
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus odio quibusdam modi suscipit,  br totam iure officia tempora provident obcaecati corporis quae eaque natus magni unde in quos, ea sint voluptatem?</p>
-        </div><!--shoes-->
-
-        <div class="fretegratis">
-                <img class="img" src="images/fretegratis.jpg" alt="frete grátis">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error distinctio veniam deleniti aut impedit reiciendis autem cupiditate expedita beatae accusantium assumenda, aliquam quo fuga nemo labore dicta dolor quae quis!</p>
-        </div><!--frete grátis-->
-
-
-    </div><!--main end-->
-  
-    <div class="footer">
-        <button accesskey="novo.html" style="color:rgb(0, 0, 255); border-radius: 3px;" ><a href="index.html"> voltar para a página</a></button>    
+      </div>
     </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2"
+            viewBox="0 0 24 24">
+            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+            <circle cx="12" cy="13" r="4" />
+          </svg>
+          <strong>Mercadinho.ao</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="font-weight-light">Mercadinho.ao</h1>
+          <p class="lead text-muted">Chegou o <strong>Mercadinho.ao</strong> uma praça virtual!! <br>Você que tem um
+            mini negócio ou um negócio de médio port e não tem muita repercursssão ou deseja aumentar as suas vendas, o
+            Mercadinho aafilia-se a sí em troca significativa de comissões de vendas.</p>
+          <p>
+            <a href="#" class="btn btn-primary my-2">Main call to action</a>
+            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Desde
+                  carregadores!</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">🔋 Carregador de iPhone Type-C – Potência e Variedade para Atender Suas
+                  Necessidades <br>
+
+                  ⚡ Modelo 20V – 7.000,00 Kzs: Ideal para um carregamento rápido e seguro, perfeito para uso em casa, no
+                  escritório ou em viagens curtas. Tenha a carga necessária em menos tempo e aproveite a potência que
+                  acompanha seu ritmo. <br>
+
+                  ⚡ Modelo 25V – 8.500,00 Kzs: Potência máxima para quem busca o melhor desempenho. Esse modelo carrega
+                  seu dispositivo ainda mais rápido, garantindo energia plena quando você mais precisa. <br>
+
+                  Garanta o seu agora no Mercadinho e mantenha seu iPhone sempre pronto para a próxima aventura. Modelos
+                  limitados – não perca essa oportunidade!. <br></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">Thumbnail</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">✅ Carregamento Rápido e Eficiente — Desfrute de uma carga rápida e segura, sem
+                  sobreaquecimento. <br>
+                  ✅ Compacto e Leve — Ideal para levar no bolso, mochila ou bolsa, garantindo energia extra em qualquer
+                  lugar. <br>
+                  ✅ Design Inteligente — Conecta-se automaticamente ao seu iPhone, alinhando-se perfeitamente para um
+                  carregamento otimizado. <br>
+                  💥 Oferta Especial: Apenas 12.000kzs! <br>
+                  ⚡ Estoque limitado — Aproveite antes que esgote! <br>
+                  📦 Compre agora no Mercadinho e receba em casa com total comodidade. <br>
+                  🔗 Não perca tempo! Garanta já o seu Carregador MagSafe e fique sempre conectado.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">Thumbnail</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">🎧 AirPods Pro (2ª Geração): O som que transforma o seu mundo! <br>
+                  Imagine ouvir suas músicas favoritas com clareza cristalina, sentir cada batida como se estivesse no
+                  estúdio do artista e esquecer o barulho ao seu redor. Com os AirPods Pro 2ª Geração, isso não é sonho,
+                  é realidade. <br>
+                  • Silêncio absoluto quando precisar: O Cancelamento Ativo de Ruído elimina o caos ao seu redor. <br>
+                  • Conexão com o mundo ao seu comando: O Modo Ambiente ajusta o som externo, perfeito para quem precisa
+                  de atenção total e liberdade ao mesmo tempo. <br>
+                  • Som impecável em cada detalhe: Experimente graves potentes, vocais claros e a qualidade que redefine
+                  o conceito de áudio premium. <br>
+                  • Bateria que acompanha o seu ritmo:Use por até 6 horas sem parar e recarregue rapidamente com o
+                  estojo magnético. <br>
+                  • Conforto sem esforço: Leves, discretos e feitos para se encaixar perfeitamente em qualquer ouvido.
+                  <br>
+                  📦 Tudo isso por apenas 17.000 Kz!</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">Thumbnail</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">🎮 Transforme Seu Jogo com o Comando de PS4! 🎮 <br>
+                  💥 Experiência de Jogo Elevada: Descubra o verdadeiro poder de um comando que combina precisão,
+                  velocidade e controle total. Feito para quem leva o game a sério! <br>
+                  🕹 Conforto e Durabilidade: <strong>Design ergonômico para longas horas de jogatina sem desconforto,
+                    aliado a uma construção robusta que aguenta até as partidas mais intensas</strong>. <br>
+                  🔥 Conexão Perfeita: Sem atrasos, sem falhas. A resposta que você precisa no momento exato para
+                  vencer. <br>
+                  💰 Investimento Acessível: Por apenas 20.000 Kz, você leva para casa o controle que vai elevar sua
+                  performance no jogo. <br>
+                  🎁 Promoção Especial: Garanta o seu agora e leve sua gameplay para o próximo nível. Estoque limitado!
+                  <br>
+                  📩 Chama no Direct ou WhatsApp e torne-se o player imbatível! A vitória começa aqui. 🔥</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">Thumbnail</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">Desfrute da liberdade sem fios que combina tecnologia, estilo e som de alta
+                  qualidade! <br>
+                  <strong>Chegaram os AirPods de primeira geração no Mercadinho, perfeitos para quem busca praticidade e
+                    performance no dia a dia:</strong> <br>
+                  🎧 Som Impecável: Experimente áudio cristalino e graves profundos que transformam sua playlist em um
+                  verdadeiro show. <br>
+                  💨 Conexão Instantânea: Com tecnologia que sincroniza automaticamente com seus dispositivos, você
+                  economiza tempo e aproveita o melhor da música, chamadas e vídeos. <br>
+                  🔋 Autonomia Poderosa: Até 24 horas de bateria com o estojo de carregamento – perfeito para quem está
+                  sempre em movimento. <br>
+                  💼 Design Minimalista: Leves, confortáveis e feitos para acompanhar você em qualquer lugar. <br>
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">Thumbnail</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">Thumbnail</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">Thumbnail</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">Thumbnail</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="text-muted py-5">
+    <div class="container">
+      <p class="float-right mb-1">
+        <a href="#">Back to top</a>
+      </p>
+      <p class="mb-1">Mercadinho.ao OFFICIAL PAGE &copy; 2024, All rights reserved!</p>
+      <p class="mb-0">Primeiro contaco com a gente? <a href="https://instagram.com/mercadinho.ao">Visit our instagram
+          page.</p>
+    </div>
+  </footer>
+
+</body>
+
 </html>
